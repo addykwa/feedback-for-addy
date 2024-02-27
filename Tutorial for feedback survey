@@ -1,0 +1,42 @@
+Step 3: Create Your Website Files
+
+Objective: To create the actual content and structure of your landing page and survey.
+
+    You'll need at least an HTML file for your website. Optionally, CSS for styling, and JavaScript for interactivity. For simplicity, start with HTML.
+    If you're not familiar with HTML, you can find many templates online or start with a basic structure. Your HTML file must contain form elements for your survey (like input fields, radio buttons, checkboxes).
+    Save your HTML file as index.html. This will be the main page of your website.
+
+Step 4: Upload Your Website Files to GitHub
+
+Objective: To get your website files onto GitHub, so they can be hosted by GitHub Pages.
+
+    Go to your repository on GitHub.
+    Click on "Add file" > "Upload files". Drag and drop your website files (e.g., index.html, any CSS or JavaScript files) into the browser window, then commit the changes.
+
+Step 5: Enable GitHub Pages
+
+Objective: To make your website accessible on the web.
+
+    In your repository, go to "Settings" > "Pages" (you might need to scroll down or look under a "More" tab).
+    Under "Source", select the branch where you uploaded your files (usually main or master) and click "Save".
+    GitHub will provide you with a URL where your site is published. It might take a few minutes for your site to be accessible.
+
+Step 6: Test Your Website
+
+Objective: To ensure everything is working as expected.
+
+    Visit the URL provided by GitHub Pages to see your website live.
+    Test the survey by filling it out and checking if any linked functionalities (like form submission) work correctly.
+
+Step 7: Collecting Survey Responses
+
+Objective: To store or manage the responses from your survey.
+
+    Since GitHub Pages hosts static sites, you cannot directly store responses there. Instead, you can use a third-party service (like Google Forms, Typeform, or a serverless function connecting to a database) to collect responses. Embed this service into your survey page.
+    For a beginner, Google Forms might be the easiest; create a form and embed it into your index.html using the provided embed code.
+
+Additional Notes
+
+    Learn HTML, CSS, and JavaScript basics if you're not familiar with them. These are essential for web development.
+    Explore GitHub's documentation and community forums for more in-depth guides and troubleshooting.
+    Consider privacy and data protection laws (like GDPR) when collecting information through surveys.
